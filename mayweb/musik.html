@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/x-icon" href="style/9.jpg">
+    <title>Music</title>
+    <style>
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: #ada498;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #887f7f;
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #807d65;
+  box-shadow: 0 5px #dfcdcd;
+  transform: translateY(4px);
+}
+ audio{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+h1{
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    color:#ffff;
+}
+    </style>
+</head>
+<body>
+<div class="header">
+    <a href="#default" class="logo">Music</a>
+        <div class="header-right">
+          <a class="active" href="home.html">Back to Home</a>
+        </div>
+</div>
+    <h1>Music and Playlist</h1>
+<button class="button"><a href="https://open.spotify.com/playlist/1brCKTMHWfsks1G88I0xMs?si=d43bf5de2b414618">This is My Playlist</a></button>
+<audio controls>
+    <source src="style/nidji.mp3" type="audio/mpeg">
+  </audio>
+</body>
+</html>
