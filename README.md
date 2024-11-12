@@ -1,2 +1,2 @@
-# My_Portofolio
-Wellcome To My portofolio
+#TABEL DATA 
+Hanya iseng menggunakan matplotlib
